@@ -3,50 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lokesh Anumula | Web Developer Portfolio</title>
-    <meta name="description" content="Portfolio of Lokesh Anumula, a Computer Science Engineering student at JNTUK specializing in web development, responsive design, and AI-assisted tools.">
-    <meta name="robots" content="index, follow">
+    <title>Lokesh Anumula | Task 2 Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="container">
+        <header role="banner">
+            <h1>Lokesh Anumula</h1>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+        <main id="main-content">
+            <section id="hero">
+                <h2>B.Tech CSE Student & Web Developer</h2>
+                <p>Welcome to my responsive portfolio for the Thiranex Virtual Internship.</p>
+            </section>
 
-    <header role="banner">
-        <h1>Lokesh Anumula</h1>
-        <nav aria-label="Main Navigation">
-            <ul>
-                <li><a href="index.html" aria-current="page">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+            <section id="projects">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <h3>YT-Focus</h3>
+                        <p>Chrome extension to improve productivity by controlling distractions.</p>
+                    </article>
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <h3>Blood Bridge</h3>
+                        <p>AI-powered platform connecting blood donors and recipients efficiently.</p>
+                    </article>
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>Personal portfolio showcasing projects and skills.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
 
-    <main id="main-content">
-        <section aria-labelledby="hero-heading">
-            <h2 id="hero-heading">Aspiring Web Developer & CSE Student</h2>
-            <p>Welcome! I am a motivated B.Tech student passionate about utilizing basic web development and AI-assisted workflows to construct impactful digital solutions.</p>
-        </section>
-
-        <section aria-labelledby="projects-heading">
-            <h2 id="projects-heading">Featured Projects</h2>
-            
-            <article class="project-card">
-                <h3>YT-Focus</h3>
-                <p>A specialized Chrome extension built to optimize daily productivity by targeting and controlling digital distractions effectively.</p>
-            </article>
-
-            <article class="project-card">
-                <h3>Blood Bridge</h3>
-                <p>An AI-powered application designed to bridge the communication gap, connecting blood donors and recipients quickly and seamlessly. Presented at the AMD Hackathon.</p>
-            </article>
-        </section>
-    </main>
-
-    <footer role="contentinfo">
-        <p>&copy; 2026 Lokesh Anumula. All rights reserved.</p>
-    </footer>
-
+        <footer role="contentinfo">
+            <p>&copy; 2026 Lokesh Anumula. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
